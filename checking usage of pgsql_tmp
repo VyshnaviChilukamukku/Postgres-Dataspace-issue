@@ -1,0 +1,21 @@
+du -sh *
+8.1T    16386
+5.2T    pgsql_tmp
+-bash-4.2$ pwd
+/pg_data/data/pg_tblspc/db_rsiapp_prod_01_tbspc/PG_13_202007201
+-bash-4.2$
+/pg_data/data/pg_tblspc/db_rsiapp_prod_01_tbspc/PG_13_202007201/pgsql_tmp/p
+
+-bash-4.2$ cd /pg_data/data/pg_tblspc/db_rsiapp_prod_01_tbspc/PG_13_202007201/pgsql_tmp
+-bash-4.2$ ls -ltr | wc -l
+5243
+-bash-4.2$
+
+-bash-4.2$ du -sh /pg_data/data/pg_tblspc/db_rsiapp_prod_01_tbspc/PG_13_202007201/pgsql_tmp
+5.2T    /pg_data/data/pg_tblspc/db_rsiapp_prod_01_tbspc/PG_13_202007201/pgsql_tmp
+-bash-4.2$
+-bash-4.2$ du -sh /pg_data/data/pg_tblspc/db_rsiapp_prod_01_tbspc/PG_13_202007201/pgsql_tmp
+5.2T    /pg_data/data/pg_tblspc/db_rsiapp_prod_01_tbspc/PG_13_202007201/pgsql_tmp
+-bash-4.2$
+
+ 				 
